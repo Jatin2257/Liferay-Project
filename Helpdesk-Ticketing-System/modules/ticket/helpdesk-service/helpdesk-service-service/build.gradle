@@ -1,0 +1,11 @@
+dependencies {
+	compile project(":modules:ticket:helpdesk-service:helpdesk-service-api")
+
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+}
+
+buildService {
+	apiDir = "../helpdesk-service-api/src/main/java"
+}
+
+group = "helpdesk.service"

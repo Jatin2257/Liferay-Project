@@ -1,0 +1,9 @@
+apiDir: "../user-rest-api/src/main/java"
+apiPackagePath: "com.helpdesk.rest"
+application:
+    baseURI: "/user-rest"
+    className: "UserRestApplication"
+    name: "UserRest"
+author: "Jatin"
+clientDir: "../user-rest-client/src/main/java"
+testDir: "../user-rest-test/src/testIntegration/java"

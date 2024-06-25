@@ -1,0 +1,10 @@
+Bundle-Name: helpdesk-service-api
+Bundle-SymbolicName: helpdesk.service.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	helpdesk.service.exception,\
+	helpdesk.service.model,\
+	helpdesk.service.service,\
+	helpdesk.service.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../helpdesk-service-service/service.xml

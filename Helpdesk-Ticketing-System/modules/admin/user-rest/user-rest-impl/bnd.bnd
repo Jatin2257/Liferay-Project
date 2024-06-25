@@ -1,0 +1,3 @@
+Bundle-Name: user-rest-impl
+Bundle-SymbolicName: com.helpdesk.rest.impl
+Bundle-Version: 1.0.0

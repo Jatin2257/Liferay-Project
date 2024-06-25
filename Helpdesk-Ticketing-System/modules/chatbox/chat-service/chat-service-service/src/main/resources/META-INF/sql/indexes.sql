@@ -1,0 +1,1 @@
+create index IX_FEB3617D on ticket_ChatMessage (ticketId);

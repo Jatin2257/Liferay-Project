@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="helpdesk.service.model.Ticket">
+		<field name="ticketId" type="long" />
+		<field name="userId" type="long" />
+		<field name="requester" type="String" />
+		<field name="email" type="String" />
+		<field name="subject" type="String" />
+		<field name="description" type="String" />
+		<field name="department" type="String" />
+		<field name="category" type="String" />
+		<field name="subcategory" type="String" />
+		<field name="priority" type="String" />
+		<field name="imageattached" type="String">
+			<hint name="max-length">5000</hint>
+		</field>
+		<field name="status" type="String" />
+		<field name="createdate" type="String" />
+	</model>
+</model-hints>

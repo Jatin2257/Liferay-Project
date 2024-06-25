@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 7.4.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_7_4_0.dtd">
+
+<service-builder dependency-injector="ds"
+	package-path="helpdesk.service">
+	<namespace>helpdesk</namespace>
+	<entity name="Ticket" local-service="true"
+		remote-service="false">
+		<column name="ticketId" type="long" primary="true"></column>
+		<column name="userId" type="long"></column>
+		<column name="requester" type="String"></column>
+		<column name="email" type="String"></column>
+		<column name="subject" type="String"></column>
+		<column name="description" type="String"></column>
+		<column name="department" type="String"></column>
+		<column name="category" type="String"></column>
+		<column name="subcategory" type="String"></column>
+		<column name="priority" type="String"></column>
+		<column name="imageattached" type="String"></column>
+		<column name="status" type="String"></column>
+		<column name="createdate" type="String"></column>
+
+		<finder name="userId" return-type="Collection">
+			<finder-column name="userId" />
+		</finder>
+		<finder name="department" return-type="Collection">
+			<finder-column name="department" />
+		</finder>
+	</entity>
+
+</service-builder>

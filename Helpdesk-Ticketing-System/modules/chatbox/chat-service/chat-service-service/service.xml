@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 7.4.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_7_4_0.dtd">
+
+<service-builder dependency-injector="ds" package-path="chat.service">
+	<namespace>ticket</namespace>
+	<!--<entity data-source="sampleDataSource" local-service="true" name="Foo" remote-service="false" session-factory="sampleSessionFactory" table="foo" tx-manager="sampleTransactionManager uuid="true"">-->
+    <entity name="ChatMessage" local-service="true">
+    <column name="messageId" type="long" primary="true"/>
+		<column name="userId" type="long"></column>
+		<column name="ticketId" type="long"></column>
+		<column name="message" type="String"></column>
+		<column name="timestamp" type="Date"></column>
+		<column name="imageattached" type="String"></column>
+
+		<finder return-type="Collection" name="ticketId">
+			<finder-column name="ticketId"></finder-column>
+		</finder>
+    </entity>
+</service-builder>

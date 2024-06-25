@@ -1,0 +1,6 @@
+Bundle-Name: login-fragment
+Bundle-SymbolicName: login.fragment
+Bundle-Version: 1.0.0
+Fragment-Host: com.liferay.login.web;bundle-version="6.0.38"
+Portal-Bundle-Version: 7.4.13
+

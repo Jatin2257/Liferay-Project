@@ -1,0 +1,6 @@
+Bundle-Name: user-rest-api
+Bundle-SymbolicName: com.helpdesk.rest.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.helpdesk.rest.dto.v1_0,\
+	com.helpdesk.rest.resource.v1_0

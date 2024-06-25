@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="chat.service.model.ChatMessage">
+		<field name="messageId" type="long" />
+		<field name="userId" type="long" />
+		<field name="ticketId" type="long" />
+		<field name="message" type="String" />
+		<field name="timestamp" type="Date" />
+		<field name="imageattached" type="String">
+			<hint name="max-length">5000</hint>
+		</field>
+	</model>
+</model-hints>

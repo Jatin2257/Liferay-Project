@@ -1,0 +1,10 @@
+Bundle-Name: chat-service-api
+Bundle-SymbolicName: chat.service.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	chat.service.exception,\
+	chat.service.model,\
+	chat.service.service,\
+	chat.service.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../chat-service-service/service.xml

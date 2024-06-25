@@ -1,0 +1,4 @@
+Bundle-Name: ticket-dashboard
+Bundle-SymbolicName: com.ticket.dashboard
+Bundle-Version: 1.0.0
+Export-Package: com.ticket.dashboard.constants
