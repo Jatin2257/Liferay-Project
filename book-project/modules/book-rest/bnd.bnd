@@ -1,0 +1,4 @@
+Bundle-Name: book-rest
+Bundle-SymbolicName: book.rest
+Bundle-Version: 1.0.0
+Liferay-Configuration-Path: /configuration

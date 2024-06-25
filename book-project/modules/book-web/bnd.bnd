@@ -1,0 +1,4 @@
+Bundle-Name: book-web
+Bundle-SymbolicName: com.book.web
+Bundle-Version: 1.0.0
+Export-Package: com.book.web.constants
